@@ -26,7 +26,7 @@ def mk_pdb():
     conn.close()
     cur.close()
 
-
+# 지우기
 def dl_db(db_name):
     conn = pymysql.connect(**config)
     sql = f"DROP TABLE {db_name}"
